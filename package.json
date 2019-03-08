@@ -1,0 +1,28 @@
+{
+  "name": "rss-parse",
+  "version": "1.0.0",
+  "description": "An RSS Parser POC",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/briannovillo/rss-parse.git"
+  },
+  "keywords": [
+    "rss",
+    "parser",
+    "xml",
+    "json"
+  ],
+  "author": "Brian Novillo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/briannovillo/rss-parse/issues"
+  },
+  "homepage": "https://github.com/briannovillo/rss-parse#readme",
+  "dependencies": {
+    "rss-parser": "^3.6.3"
+  }
+}
