@@ -1,7 +1,8 @@
 const Parser = require('rss-parser');
-const parser = new Parser();
 const urlParse = require('url');
 const fs = require('fs');
+
+const parser = new Parser();
 
 const sites = [
   'https://www.infobae.com/feeds/rss/',
